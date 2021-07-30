@@ -1,0 +1,156 @@
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.container{
+    text-align: center;
+}
+table{
+    margin: auto;
+}
+h3{
+    margin-top: 50px;
+    color: #e8e6e6;
+    padding-right: 190px;
+    padding-top: 15px;
+}
+.dark-mode-calcularot h3 {
+    margin-top: 50px;
+    color: #e8e6e6;
+    padding-right: 190px;
+    padding-top: 15px;
+}
+.secondrow button{
+    margin-top: 10px;
+}
+.threerow button{
+    margin-top: 10px;
+}
+.fourrow button{
+    margin-top: 10px;
+}
+.fiverow button{
+    margin-top: 10px;
+}
+
+input {
+    font-family: 'Roboto', sans-serif;
+    font-size: 38px;
+    border: 10px solid #f16161;
+    width: 270px;
+    outline: none;
+    color: #3b3b3b;
+    text-align: right;
+    padding-right: 10px;
+    padding-left: 5px;
+    margin-bottom: 30px;
+    height: 90px;
+    box-shadow: -2px -2px 8px 0px rgb(210 91 90), 2px 2px 8px 0px rgb(210 91 90), inset -2px -3px 8px 0px rgb(107 103 103), inset 2px 3px 8px 0px rgb(107 103 103);
+	background: #dcf1e8;
+}
+.dark-mode-calcularot input {
+    font-family: 'Roboto', sans-serif;
+    background: #8e8b8b;
+    color: #fff;
+    border: 10px solid #504f4f;
+    box-shadow: -2px -2px 8px 0px #464646, 2px 2px 8px 0px #464646, inset -2px -3px 8px 0px #2d2d2d, inset 2px 3px 8px 0px #2d2d2d;
+}
+button {
+    background: #f16161;
+    font-size: 28px;
+    text-align: center;
+    color: #bebfbf;
+    width: 60px;
+    margin: 6px 2px;
+    border: none;
+    cursor: pointer;
+    border-radius: 35px;
+    height: 60px;
+    box-shadow: -1px -1px 2px #f3a8a8, inset 0px -2px 2px 1px #9a3a3a;
+    font-family: 'Poppins', sans-serif;
+}
+
+.calcularot {
+    margin: auto;
+    background-color: #f16161;
+    box-shadow: inset 0px -2px 7px 5px #dc8a8a, inset -1px -3px 2px 1px #fff;
+    width: 360px;
+    height: 670px;
+}
+.clear{
+    background: #444343;
+    color: #c79696;
+}
+.dark-mode-calcularot .clear{
+    background: #444343;
+    color: #c79696;
+}
+.acbut{
+    color: #bebfbf;
+}
+.add, .sub, .mul, .divition, .equal{
+    background: #f16161;
+    color: #4a4848;
+}
+.dark-mode-calcularot .add, .dark-mode-calcularot .sub, .dark-mode-calcularot .mul, .dark-mode-calcularot .divition, 
+.dark-mode-calcularot .equal {
+    color: #b5a25b;
+}
+.dark-mode-calcularot button {
+    background: #4e4e4e;
+    color: #a1b1aa;
+    box-shadow: -1px -1px 2px #848484, inset 0px -2px 2px 1px #313131;
+}
+.calcularot.dark-mode-calcularot {
+    background: #504f4f;
+    box-shadow: inset 0px -2px 7px 5px #8a8585, inset -1px -3px 2px 1px #fff;
+}
+
+.darkmode {
+    margin-top: 40px;
+}
+.darkmode a {
+    background: #333;
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 50px;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+.darkmode a:hover {
+    background: #6b6764;
+}
+
+.darkmode.light-mode a {
+    background: #d6d5d4;
+    color: #000;
+}
+.darkmode.light-mode a:hover {
+    background: #f5e7e7;
+    color: #000;
+}
+
+
+/*  */
+tbody{
+    position: relative;
+}
+tbody::before {
+    background: #d83c3c;
+    position: absolute;
+    content: '';
+    width: 77px;
+    height: 471px;
+    bottom: -45px;
+    right: -11px;
+    border-radius: 85px 0px 0px 85px;
+}
+.dark-mode-calcularot tbody::before {
+    background: #2a2d2a;
+} 
+tr {
+    z-index: 999999 !important;
+    position: relative;
+}
